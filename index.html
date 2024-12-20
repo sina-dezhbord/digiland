@@ -1,0 +1,4025 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>digiland</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="shortcut icon"
+      href="./media/main/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- بخش بالایی هدر -->
+    <header
+      class="banner flex flex-col gap-[10px] sticky transition-all duration-300 ease-linear z-10 bg-white top-[-52px]"
+    >
+      <!-- بنر -->
+      <div class="m-auto w-full">
+        <a href="#">
+          <img
+            src="./media/header/1-banner/image (1).jpeg"
+            alt=""
+            class="flex h-[45px] lg:hidden w-full"
+          />
+        </a>
+        <img
+          src="./media/header/1-banner/1.jpg"
+          alt=""
+          class="hidden lg:block m-auto h-[50px]"
+        />
+      </div>
+
+      <!-- بخش سرچ -->
+      <section
+        class="hidden lg:flex flex-col max-w-[1280px] m-auto w-full gap-5"
+      >
+        <div class="hidden lg:flex w-full justify-between">
+          <div class="flex gap-[24px]">
+            <img
+              src="./media/header/2-search/dgland_main_logo.svg"
+              alt=""
+              width="150px"
+              height="40px"
+            />
+            <!-- نوار جستجو -->
+            <div
+              class="bg-[#F6F5F5] rounded-[50px] w-[566px] h-[36px] flex items-center justify-evenly"
+            >
+              <i
+                class="fa-solid fa-magnifying-glass bg-white rounded-[50px] p-[6px] text-[crimson]"
+              ></i>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="w-[90%] bg-inherit outline-none"
+                placeholder="جستجو..."
+              />
+            </div>
+          </div>
+          <!-- ورود ثبت نام و سبد خرید -->
+          <div class="flex gap-2">
+            <button
+              class="flex items-center gap-3 border-[#EDEDED] text-[crimson] border-solid border-[1px] rounded-md px-[10px] h-[35px] cursor-pointer"
+            >
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <p class="text-nowrap text-[12px] font-semibold">
+                ورود | ثبت‌نام
+              </p>
+            </button>
+            <button
+              class="border-[1px] text-[crimson] w-[35px] h-[35px] rounded-md cursor-pointer"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+        <!-- منو -->
+        <div class="h-[72px] flex items-center">
+          <ul class="flex w-full gap-4">
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear font-extrabold"
+                ><i class="fa-solid fa-boxes-stacked"></i>
+                <p class="text-[16px]">دسته بندی کالا‌ها</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear"
+                ><i class="fa-regular fa-credit-card"></i>
+                <p class="text-[16px]">خرید اقساطی</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear"
+                ><i class="fa-solid fa-book-open"></i>
+                <p class="text-[16px]">مجله دی‌جی ‌لند</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear"
+                ><i class="fa-solid fa-percent"></i>
+                <p class="text-[16px]">پیشنهاد طلایی</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear"
+                ><i class="fa-solid fa-location-dot"></i>
+                <p class="text-[16px]">شعب دی‌جی‌‌لند</p></a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex gap-1 items-center text-[#6B6B6B] hover:text-[crimson] transition-all duration-200 ease-linear"
+                ><i class="fa-solid fa-globe"></i>
+                <p class="text-[16px]">نمایندگی دیجیلند بگیرید!</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- منوی همبرگری موبایل -->
+      <section class="flex items-center justify-evenly lg:hidden">
+        <div class="">
+          <a href="#" class="peer">
+            <i class="fa-solid fa-bars text-[crimson] text-[25px]"></i>
+          </a>
+          <div class="hidden peer-focus:flex">
+            <div
+              class="bg-white fixed h-full z-30 lg:w-2/3 right-0 top-0 px-[16px] pt-[30px] pb-[40px] overflow-y-auto"
+            >
+              <img src="./media/header/2-search/dgland_main_logo.svg" alt="" />
+              <ul class="mt-10">
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-[50px]"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-percent"
+                    ></i>
+                    <p class="text-[#505050]">پیشنهاد ویژه</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-book-open"
+                    ></i>
+                    <p class="text-[#505050]">مجله دی‌جی‌لند</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-store"
+                    ></i>
+                    <p class="text-[#505050]">شعب دی‌جی‌لند</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-regular fa-comments"
+                    ></i>
+                    <p class="text-[#505050]">پرسش های متداول</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-circle-question"
+                    ></i>
+                    <p class="text-[#505050]">راهنمای خرید</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-people-carry-box"
+                    ></i>
+                    <p class="text-[#505050]">شرایط بازگشت کالا</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-shield-halved"
+                    ></i>
+                    <p class="text-[#505050]">حریم خصوصی</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-triangle-exclamation"
+                    ></i>
+                    <p class="text-[#505050]">شرایط و قوانین</p></a
+                  >
+                </li>
+                <li
+                  class="flex items-center h-[52px] border-b border-[#F6F5F5]"
+                >
+                  <a href="#" class="flex gap-10"
+                    ><i
+                      class="text-[20px] text-[crimson] fa-solid fa-credit-card"
+                    ></i>
+                    <p class="text-[#505050]">خرید اقساطی</p></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="bg-[#494949] fixed h-full w-full z-10 left-0 top-0 opacity-[90%]"
+            ></div>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#F6F5F5] rounded-[50px] w-[87%] h-[36px] flex items-center gap-[2px] px-2"
+        >
+          <i class="fa-solid fa-magnifying-glass p-[6px] text-[crimson]"></i>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="w-[70px] bg-inherit outline-none"
+            placeholder="جستجو در"
+          />
+          <img src="./media/header/2-search/digiland-sm.svg" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <section class="main flex flex-col gap-[30px]">
+      <!-- اسلایدر بزرگ -->
+      <section class="first">
+        <div class="swiper-1 hidden lg:flex">
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/1.gif" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/2.webp" alt="" />
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/3.webp" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination flex pl-[30px]"></div>
+          </div>
+        </div>
+        <div class="swiper-1 mt-[10px] flex lg:hidden">
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/1.1.gif" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/2.2.webp" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="./media/main/1/3.3.webp" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination hidden"></div>
+          </div>
+        </div>
+      </section>
+      <!-- دسته بندی در لپتاب -->
+      <section class="secend">
+        <h2
+          class="border-b-4 pb-2 mt-8 m-auto border-[red] w-fit text-[20px] font-extrabold mb-10"
+        >
+          دسته بندی های پر بازدید
+        </h2>
+        <div class="mt-[10] items-center justify-center gap-14 hidden md:flex">
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/1.jpeg" alt="" class="w-[130px]" />
+            <p>گوشی موبایل</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/2.jpeg" alt="" class="w-[130px]" />
+            <p>لپتاب</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/3.jpeg" alt="" class="w-[130px]" />
+            <p>هدفون و هندزفری</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/4.jpeg" alt="" class="w-[130px]" />
+            <p>اسپیکر و بلند گو</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/5.jpeg" alt="" class="w-[130px]" />
+            <p>ساعت هوشمند</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/6.jpeg" alt="" class="w-[130px]" />
+            <p>تجهیزات ذخیره سازی</p>
+          </a>
+          <a href="#" class="flex flex-col items-center gap-3">
+            <img src="./media/main/2/7.jpeg" alt="" class="w-[130px]" />
+            <p>شارژر و پاوربانک</p>
+          </a>
+        </div>
+        <!-- دسته بندی کالا ها در موبایل -->
+        <div class="items-center justify-center gap-14 flex md:hidden swiper-2">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/1.jpeg" alt="" />
+                  <p class="text-[14px]">گوشی موبایل</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/2.jpeg" alt="" />
+                  <p class="text-[14px]">لپتاب</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/3.jpeg" alt="" />
+                  <p class="text-[14px]">هدفون و هندزفری</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/4.jpeg" alt="" />
+                  <p class="text-[14px]">اسپیکر و بلند گو</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/5.jpeg" alt="" />
+                  <p class="text-[14px]">ساعت هوشمند</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/6.jpeg" alt="" />
+                  <p class="text-[14px]">تجهیزات ذخیره سازی</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="flex flex-col items-center gap-3">
+                  <img src="./media/main/2/7.jpeg" alt="" />
+                  <p class="text-[14px]">شارژر و پاوربانک</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- دوتا بنر -->
+      <section class="third">
+        <div
+          class="flex flex-col lg:flex-row items-center max-w-[1280px] justify-center w-[85%] m-auto gap-10"
+        >
+          <a href="#">
+            <img src="./media/main/3/1.jpeg" class="rounded-lg" alt="" />
+          </a>
+
+          <a href="#">
+            <img src="./media/main/3/2.jpeg" class="rounded-lg" alt="" />
+          </a>
+        </div>
+      </section>
+      <!-- تخفیف تایم -->
+      <section class="fourth">
+        <div class="h-[480px] bg-[crimson]">
+          <div class="flex items-center justify-center pt-5 gap-3">
+            <img src="./media/main/4/persent.svg" alt="" width="48px" />
+            <p class="text-[26px] text-[white] font-bold">تخفیف تایم</p>
+          </div>
+
+          <div class="swiper-3 max-w-7xl m-auto">
+            <!-- لپتاب -->
+            <div class="swiper mySwiper4 hidden xl:flex px-[20px]">
+              <div class="swiper-wrapper">
+                <!-- slide1 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[250px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/1.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      هدفون بلوتوثی اپل مدل AirPods 3 همراه با محفظه شارژ (2021)
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        8%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          9,050,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          8,299,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide2-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/2.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت
+                      256 گیگابای...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          32,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,799,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide3 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/3.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                      ظرفیت 256...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        3%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          55,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          53,599,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide4-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/4.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      شارژر دیواری 2 پین سامسونگ 25 وات مدل EP-T2510
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        41%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          1,190,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          699,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide5 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/5.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      ساعت هوشمند اپل مدل Apple Watch Series 10 46 mm
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          31,699,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,399,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/7.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      اسپیکر بلوتوثی جی بی ال مدل PartyBox Club 120
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5 %
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          22,500,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          21,350,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/6.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      هدفون بلوتوثی سامسونگ مدل Galaxy Buds 3
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        14%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          7,249,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          6,239,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/8.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      ساعت هوشمند اپل مدل Apple Watch SE (2nd generation 2024)
+                      44mm
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          17,199,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          16,349,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- موبایل -->
+            <div class="swiper mySwiper5 w-[90%] flex md:hidden px-[25px]">
+              <div class="swiper-wrapper">
+                <!-- slide1 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[280px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/1.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      هدفون بلوتوثی اپل مدل AirPods 3 همراه با محفظه شارژ (2021)
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        8%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          9,050,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          8,299,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide2-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                    src="./media/main/4/2.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      
+                      گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          32,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,799,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide3 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/3.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        3%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          55,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          53,599,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide4-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/4.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      شارژر دیواری 2 پین سامسونگ 25 وات مدل EP-T2510
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        41%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          1,190,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          699,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide5 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/5.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      ساعت هوشمند اپل مدل Apple Watch Series 10 46 mm
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          31,699,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,399,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/7.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      اسپیکر بلوتوثی جی بی ال مدل PartyBox Club 120
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5 %
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          22,500,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          21,350,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/6.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      هدفون بلوتوثی سامسونگ مدل Galaxy Buds 3
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        14%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          7,249,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          6,239,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/8.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px] px-3">
+                      ساعت هوشمند اپل مدل Apple Watch SE (2nd generation ...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          17,199,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          16,349,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- تبلت -->
+            <div class="swiper mySwiper6 hidden md:flex xl:hidden px-[16px]">
+              <div class="swiper-wrapper">
+                <!-- slide1 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[250px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/1.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      هدفون بلوتوثی اپل مدل AirPods 3 همراه با محفظه شارژ (2021)
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        8%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          9,050,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          8,299,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide2-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/2.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت
+                      256 گیگابای...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          32,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,799,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide3 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/3.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                      ظرفیت 256...
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        3%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          55,000,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          53,599,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide4-->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/4.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      شارژر دیواری 2 پین سامسونگ 25 وات مدل EP-T2510
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        41%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          1,190,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          699,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide5 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/5.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      ساعت هوشمند اپل مدل Apple Watch Series 10 46 mm
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        4%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          31,699,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          30,399,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/7.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      اسپیکر بلوتوثی جی بی ال مدل PartyBox Club 120
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5 %
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          22,500,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          21,350,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/6.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      هدفون بلوتوثی سامسونگ مدل Galaxy Buds 3
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        14%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          7,249,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          6,239,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slide6 -->
+                <div
+                  class="swiper-slide group h-[360px] rounded-xl overflow-hidden relative cursor-pointer"
+                >
+                  <div
+                    class="w-full h-full group-hover:h-[270px] absolute top-0 transition-all duration-300 ease-linear bg-white flex flex-col gap-5 group-hover:rounded-b-xl items-center"
+                  >
+                    <img
+                      src="./media/main/4/8.png"
+                      alt=""
+                      class="w-[170px] h-[170px] flex"
+                    />
+                    <p class="text-right text-[16px]">
+                      ساعت هوشمند اپل مدل Apple Watch SE (2nd generation 2024)
+                      44mm
+                    </p>
+                  </div>
+                  <div
+                    class="z-30 absolute top-[80%] group-hover:text-white flex w-full justify-between px-[20px]"
+                  >
+                    <div class="">
+                      <p
+                        class="flex items-center justify-center bg-[red] w-[30px] h-[30px] rounded-full text-[white] text-[14px] group-hover:bg-[white] group-hover:text-[red]"
+                      >
+                        5%
+                      </p>
+                    </div>
+                    <div class="flex flex-col items-end">
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white] line-through"
+                        >
+                          17,199,000
+                        </p>
+                        <p
+                          class="text-[13px] text-[#A4A4A4] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                      <div class="flex gap-2">
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          16,349,000
+                        </p>
+                        <p
+                          class="text-[18px] text-[crimson] group-hover:text-[white]"
+                        >
+                          تومان
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- سه تا بنر برای بخش بندی قیمت گوشی -->
+      <section class="fifth">
+        <p
+          class="border-b-4 border-[red] w-fit text-[22px] font-extrabold m-auto mb-10"
+        >
+          گوشی موبایل
+        </p>
+
+        <!-- سایز موبایل -->
+        <div class="m-auto flex md:hidden">
+          <div class="swiper mySwiper7">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- سایز لپتاب -->
+        <div class="m-auto hidden md:flex w-[70%] max-w-[1280px]">
+          <div class="swiper mySwiper8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/5/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center justify-center m-auto w-[328px] mt-10 my-4"
+        >
+          <div class="border-t border-red-500 flex-grow mx-2"></div>
+          <h2 class="text-center text-black font-bold text-lg">
+            محبوب ترین موبایل ها
+          </h2>
+          <div class="border-t border-red-500 flex-grow mx-2"></div>
+        </div>
+      </section>
+      <!-- محبوب ترین موبایل ها -->
+      <section class="sixth swiper-5 w-[1280]">
+        <div class="bg-[#F6F5F5] h-[470px] m-auto">
+          <!-- سوییپر برای لپتاب -->
+          <div class="swiper mySwiper4 hidden w-[1280px] xl:flex px-[44px]">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                    ظرفیت 128 ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 128
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 5G دو سیمکارت با ظرفیت 512
+                    گیگابایت و 12...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت
+                    256 گیگابایت ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S24 FE 5G دوسیم کارت ظرفیت
+                    256 گیگابایت...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>15,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>35,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/10.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 Pro 5G دو سیمکارت با ظرفیت
+                    512 گیگابایت و...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای گوشی -->
+          <div class="swiper mySwiper5 flex w-full md:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                    ظرفیت 128 ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 128
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 5G دو سیمکارت با ظرفیت 512
+                    گیگابایت و 12...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت
+                    256 گیگابایت ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S24 FE 5G دوسیم کارت ظرفیت
+                    256 گیگابایت...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>15,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>35,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/10.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 Pro 5G دو سیمکارت با ظرفیت
+                    512 گیگابایت و...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای تبلت -->
+          <div class="swiper mySwiper6 hidden w-full md:flex xl:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت
+                    ظرفیت 128 ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 128
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 5G دو سیمکارت با ظرفیت 512
+                    گیگابایت و 12...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S23 FE 5G دو سیم کارت ظرفیت
+                    256 گیگابایت ...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>30,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy S24 FE 5G دوسیم کارت ظرفیت
+                    256 گیگابایت...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>15,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>35,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/6/10.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Poco X6 Pro 5G دو سیمکارت با ظرفیت
+                    512 گیگابایت و...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>44,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- بنر صوتی و تصویری -->
+      <section class="seventh">
+        <p
+          class="border-b-4 border-[red] w-fit text-[22px] font-extrabold m-auto mb-10"
+        >
+          صوتی و تصویری
+        </p>
+        <!-- سایز موبایل -->
+        <div class="m-auto flex md:hidden">
+          <div class="swiper mySwiper7">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- سایز لپتاب -->
+        <div class="m-auto hidden md:flex w-[70%] max-w-[1280px]">
+          <div class="swiper mySwiper8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/7/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- گوشی چی بگیرم خوبه؟ -->
+      <section class="eighth m-auto max-w-[1280px]">
+        <a href="#">
+          <img src="./media/main/8/1.png" alt="" />
+        </a>
+      </section>
+      <!-- بنر کامپیوتر و لپتاب -->
+      <section class="ninth">
+        <p
+          class="border-b-4 border-[red] w-fit text-[22px] font-extrabold m-auto mb-10"
+        >
+          کامپیوتر و لپتاب
+        </p>
+        <!-- سایز موبایل -->
+        <div class="m-auto flex md:hidden">
+          <div class="swiper mySwiper7">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- سایز لپتاب -->
+        <div class="m-auto hidden md:flex w-[70%] max-w-[1280px]">
+          <div class="swiper mySwiper8">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/1.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/2.jpeg" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide flex items-center justify-center">
+                <a href="#" class="">
+                  <img src="./media/main/9/3.jpeg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex items-center justify-center m-auto w-[328px] mt-10 my-4"
+        >
+          <div class="border-t border-red-500 flex-grow mx-2"></div>
+          <h2 class="text-center text-black font-bold text-lg">
+            محبوب ترین ها لوازم جانبی
+          </h2>
+          <div class="border-t border-red-500 flex-grow mx-2"></div>
+        </div>
+      </section>
+      <!-- محبوب ترین های لوازم جانبی -->
+      <section class="tenth swiper-5 w-[1280]">
+        <div class="bg-[#F6F5F5] h-[470px] m-auto">
+          <!-- سوییپر برای لپتاب -->
+          <div class="swiper mySwiper4 hidden w-[1280px] xl:flex px-[44px]">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>6,449,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>38,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی اپل مدل AirPods Max 2020
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>33,939,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی هارمن کاردن مدل Aura Studio 3
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>14,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی سامسونگ مدل Galaxy Buds 2 Pro
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>5,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>4,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کاور سیلیکونی محافظ لنز دار مناسب برای گوشی موبایل سامسونگ
+                    Galaxy S21 FE
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>90,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    شارژر اپل مدل 20 وات
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>1,249,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کنسول بازی سونی مدل Playstation 5 Slim Drive ظرفیت 1 ترابایت
+                    (اروپا)
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>37,899,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای گوشی -->
+          <div class="swiper mySwiper5 flex w-full md:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>6,449,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>38,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی اپل مدل AirPods Max 2020
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>33,939,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی هارمن کاردن مدل Aura Studio 3
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>14,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی سامسونگ مدل Galaxy Buds 2 Pro
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>5,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>4,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کاور سیلیکونی محافظ لنز دار مناسب برای گوشی موبایل سامسونگ
+                    Galaxy S21 FE
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>90,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    شارژر اپل مدل 20 وات
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>1,249,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کنسول بازی سونی مدل Playstation 5 Slim Drive ظرفیت 1 ترابایت
+                    (اروپا)
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>37,899,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای تبلت -->
+          <div class="swiper mySwiper6 hidden w-full md:flex xl:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/1.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هارد اکسترنال ای دیتا مدل HD770G ظرفیت 2 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>6,449,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/2.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی قابل حمل جی بی ال مدل PARTY BOX 710
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>38,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/3.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی اپل مدل AirPods Max 2020
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>33,939,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/4.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    اسپیکر بلوتوثی هارمن کاردن مدل Aura Studio 3
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>14,999,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/5.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    هدفون بلوتوثی سامسونگ مدل Galaxy Buds 2 Pro
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>5,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/6.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-right">
+                    هارد اکسترنال ای دیتا مدل HD710 Pro ظرفیت 1 ترابایت
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>4,499,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/7.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کاور سیلیکونی محافظ لنز دار مناسب برای گوشی موبایل سامسونگ
+                    Galaxy S21 FE
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>90,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/8.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    شارژر اپل مدل 20 وات
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>1,249,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px]"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/10/9.png"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    کنسول بازی سونی مدل Playstation 5 Slim Drive ظرفیت 1 ترابایت
+                    (اروپا)
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>37,899,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- پرفروش ترین ها -->
+      <section class="eleventh">
+        <img
+          src="./media/main/11/bestSellsDesktop.png"
+          alt=""
+          class="lg:w-[80%] lg:mt-5 w-full m-auto mt-14 max-w-[1280px]"
+        />
+
+        <div class="h-[470px] m-auto">
+          <!-- سوییپر برای لپتاب -->
+          <div class="swiper mySwiper4 hidden w-[1280px] xl:flex px-[44px]">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-6 z-[5] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/1.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-6 z-[4] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/2.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-6 z-[3] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/3.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-6 z-[2] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/4.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای‌...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>11,429,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-6 z-[1] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/5.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای.
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای گوشی -->
+          <div class="swiper mySwiper5 flex w-full md:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all z-[5] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/1.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all z-[4] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/2.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all z-[3] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/3.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all z-[2] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/4.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای‌...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>11,429,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all z-[1] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/5.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای.
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- سوییپر برای تبلت -->
+          <div class="swiper mySwiper6 hidden w-[80%] px-6 md:flex xl:hidden">
+            <div class="swiper-wrapper flex items-center">
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-3 z-[5] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/1.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A55 5G دو سیم کارت ظرفیت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>25,399,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-3 z-[4] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/2.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A35 5G ظرفیت دو سیم کارت 256
+                    گیگابایت و ر...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>19,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-3 z-[3] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/3.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت ظرفیت
+                    128...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>8,299,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-3 z-[2] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/4.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای‌...
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>11,429,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-2xl swiper-slide flex flex-col cursor-pointer justify-start h-[388px] origin-top duration-300 ease-linear transition-all hover:rotate-3 z-[1] border"
+              >
+                <div class="flex items-center flex-col justify-around h-full">
+                  <img
+                    src="./media/main/11/5.jpeg"
+                    alt=""
+                    class="w-[210px] h-[210px]"
+                  />
+                  <p class="px-[5px] text-[12px] text-righ">
+                    گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیمکارت با ظرفیت
+                    256 گیگابای.
+                  </p>
+                  <div
+                    class="flex mr-auto px-[20px] text-[crimson] gap-1 font-extrabold"
+                  >
+                    <p>13,199,000</p>
+                    <p>تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- برند های برتر -->
+      <section class="twelfth max-w-[1440px] m-auto w-full">
+        <div
+          class="flex items-center justify-center m-auto w-[328px] mt-10 my-4"
+        >
+          <div class="border-t border-black-500 flex-grow mx-2"></div>
+          <h2 class="text-center text-black font-bold text-lg">
+            برند های برتر
+          </h2>
+          <div class="border-t border-black-500 flex-grow mx-2"></div>
+        </div>
+
+        <div
+          class="slider w-[80%] rounded-full m-auto h-[65px] hover:border-[red] border relative overflow-hidden"
+        >
+          <div class="item1 flex items-center h-full item">
+            <img
+              src="./media/main/12/1.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item2 flex items-center h-full item">
+            <img
+              src="./media/main/12/2.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item3 flex items-center h-full item">
+            <img
+              src="./media/main/12/3.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item4 flex items-center h-full item">
+            <img
+              src="./media/main/12/4.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item5 flex items-center h-full item">
+            <img
+              src="./media/main/12/5.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item6 flex items-center h-full item">
+            <img
+              src="./media/main/12/6.png"
+              alt=""
+              class="w-[70px] h-[25px] md:w-[100px] md:h-[30px] lg:w-[120px] lg:h-[35px]"
+            />
+          </div>
+          <div class="item7 flex items-center h-full item">
+            <img
+              src="./media/main/12/7.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item8 flex items-center h-full item">
+            <img
+              src="./media/main/12/8.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item9 flex items-center h-full item">
+            <img
+              src="./media/main/12/9.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item10 flex items-center h-full item">
+            <img
+              src="./media/main/12/10.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+          <div class="item11 flex items-center h-full item">
+            <img
+              src="./media/main/12/11.png"
+              alt=""
+              class="w-[70px] h-[30px] md:w-[100px] md:h-[35px] lg:w-[120px] lg:h-[40px]"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer
+      class="mt-[30px] flex flex-col gap-5 items-center max-w-[1280px] m-auto"
+    >
+      <!-- لپتاب -->
+      <!-- بخش اطلاعات بیشتر -->
+      <div
+        class="phone transition-all duration-300 ease-linear mx-5 md:w-[80%] m-auto border p-12 rounded-xl h-[293px] overflow-hidden"
+      >
+        <div class="relative flex flex-col gap-10">
+          <p class="font-extrabold">خرید گوشی</p>
+          <p class="text-[12px]" style="text-align: justify;">
+            خرید گوشی و خرید اینترنتی گوشی در این روزها، می‌تواند زمان زیادی از
+            شما بگیرد. در هنگام خرید گوشی موبایل باید به نکات متعددی مانند
+            <span class="text-[blue] cursor-pointer">خرید گوشی موبایل</span>
+            ، امکانات گوشی موبایل، ضمانت گوشی موبایل و رجیستری گوشی موبایل در
+            کنار اصالت فروشگاه موبایل دقت کرد. مهم‌ ترین عامل اثرگذار در تصمیم
+            گیری ما، قیمت روز گوشی موبایل می‌باشد. شما می‌توانید از طریق خرید
+            اینترنتی گوشی از
+            <span class="text-[blue] cursor-pointer">
+              فروشگاه اینترنتی موبایل
+            </span>
+            یا خرید حضوری از شعب دی‌جی‌لند اقدام به خرید گوشی سامسونگ، خرید گوشی
+            شیائومی و سایر برندها کنید.
+          </p>
+          <p class="font-extrabold">فروشگاه اینترنتی موبایل</p>
+          <p class="text-[12px]" style="text-align: justify;">
+            خرید گوشی موبایل از فروشگاه اینترنتی موبایل، یکی از سریع‌ترین راه‌ها
+            به شمار می‌آید. در زمان خرید اینترنتی گوشی موبایل، باید به نکاتی
+            مانند نشان نماد الکترونیکی، پروتکل SSL و درگاه امن پرداخت فروشگاه
+            اینترنتی توجه کنید. قبل از خرید موبایل، نظرات کاربران را بررسی کنید.
+            این نظرات می‌تواند به شما درک بهتری از تجربه خرید دیگران و کیفیت
+            سرویس‌دهی آن فروشگاه اینترنتی بدهد. مورد بعدی که می‌بایست به آن دقت
+            شود اصالت کالای دیجیتال است.
+          </p>
+
+          <p class="font-extrabold">خرید اقساطی گوشی</p>
+
+          <p class="text-[12px]" style="text-align: justify;">
+            این‌ روزها خرید اقساطی گوشی به دلیل نوسان قیمت گوشی موبایل بهترین
+            راه خرید گوشی محسوب می‌شود. دی‌جی‌لند با فراهم کردن امکان خرید قسطی
+            گوشی موبایل، خرید قسطی لپ تاپ و سایر کالاهای دیجیتال، شرایطی آسان را
+            برای خرید جدیدترین محصولات دیجیتال فراهم کرده است. شما می‌توانید به
+            دو روش حضوری و آنلاین گوشی مورد نظر خود را به صورت قسطی خریداری
+            نمایید. در روش آنلاین کافیست به صفحه ویژه
+            <span class="text-[blue] cursor-pointer">
+              خرید قسطی کالای دیجیتال
+            </span>
+            دی‌جی‌لند و برای خرید حضوری گوشی موبایل کافیست به یکی از شعب
+            دی‌جی‌لند مراجعه کنید تا خرید خود را در سریعترین زمان ممکن و با
+            شرایطی آسان انجام دهید.
+          </p>
+
+          <p class="font-extrabold">خرید گوشی سامسونگ</p>
+
+          <p>
+            <span class="text-[blue] cursor-pointer text-[12px]" style="text-align: justify;"> خرید گوشی سامسونگ </span>
+            همیشه یکی از انتخاب‌های اول خریداران موبایل در ایران است. این
+            محبوبیت به دلایل متعددی مثل به‌روزرسانی‌های نرم‌افزاری منظم گوشی‌های
+            سامسونگ، امنیت و پشتیبانی قوی گوشی سامسونگ می‌باشد که خیال شما را تا
+            سال‌ها راحت می‌کند. به‌عنوان مثال جدیدترین گوشی سامسونگ یعنی گلکسی
+            اس ۲۴، گلکسی اس ۲۴ پلاس و گلکسی اس ۲۴ اولترا تا هفت سال پشتیبانی
+            نرم‌افزاری دریافت خواهند کرد. اگر به‌دنبال خرید گوشی اقتصادی سامسونگ
+            هستید یا انتخاب شما گوشی میان‌رده سامسونگ است و یا قصد خرید گوشی
+            پرچمدار سامسونگ را دارید، دی‌جی‌لند خرید آنلاین گوشی موبایل سامسونگ
+            و خرید حضوری گوشی موبایل سامسونگ را برای شما با قیمت مناسب و ضمانت
+            معتبر فراهم کرده است.
+          </p>
+
+          <p class="font-extrabold">خرید گوشی شیائومی</p>
+
+          <p class="text-[12px]" style="text-align: justify;">
+            شیائومی برندی است که کار خود را در چین آغاز کرد و خیلی زود به یکی از
+            غول‌های تکنولوژی در دنیا تبدیل شد. گوشی‌ شیائومی همیشه به مناسب بودن
+            قیمت معروف بوده‌ و خریداران معمولا برای خرید گوشی هوشمند با امکانات
+            خوب و قیمت مناسب به سراغ این برند می‌روند؛ اما شیائومی تنها گوشی
+            اقتصادی یا گوشی ارزان قیمت تولید نمی‌کند. چند سالی است که به گوشی
+            های شیائومی، گوشی‌ پرچمدار نیز اضافه شده است تا این برند به رقیبی
+            جدی برای گوشی آیفون و گوشی سری اس سامسونگ تبدیل شود.
+            <span class="text-[blue] cursor-pointer"> قیمت گوشی شیائومی </span>
+            همانند سایر مدل‌ها در دی‌جی‌لند همواره به‌روز است و شما می‌توانید
+            مدل دلخواه خود را با گارانتی ۱۸ ماهه معتبر خریداری کنید.
+          </p>
+
+          <p>خرید گوشی اپل</p>
+
+          <p class="text-[12px]" style="text-align: justify;">
+            شرکت اپل با ورود به دنیای تلفن‌های همراه، معنای گوشی هوشمند را برای
+            همه تعریف کرد. از سال ۲۰۰۷ که اولین آیفون معرفی شد، هر ساله
+            کمپانی‌های بزرگ منتظر رونمایی آیفون جدید هستند تا قابلیت‌های جدید
+            این گوشی را بررسی و مدلی قابل رقابتی را به بازار عرضه کنند.
+            <span class="text-[blue] cursor-pointer"> قیمت گوشی آیفون </span>
+            همیشه از سایر برندها بالاتر بوده اما طرفدارانش معمولا تا سال‌ها به
+            آن وفادار می‌مانند. از لیست قیمت آیفون در فروشگاه اینترنتی دی‌جی‌لند
+            می‌توانید انواع گوشی آیفون از مدل‌های آیفون ۱۳ ، آیفون 13 پرو ،
+            آیفون ۱۳ پرومکس گرفته تا آیفون SE را مشاهده کنید و با خیالی راحت از
+            رجیستری آیفون و همینطور ۱۸ ماه ضمانت، آیفون مورد نظر خود را سفارش
+            دهید.
+          </p>
+          <p class="font-extrabold">خرید گوشی هواوی</p>
+          <p class="text-[12px]" style="text-align: justify;">
+            هواوی در طول سال‌های فعالیت خود ثابت کرده است که یکی از نوآوران عرصه
+            تکنولوژی به حساب می‌آید. کاربران گوشی های هواوی می‌دانند که این برند
+            حساسیت ویژه‌ای روی دوربین گوشی های خود دارد. فرقی نمی‌کند شما گوشی
+            اقتصادی هواوی را داشته باشید یا گوشی میان رده هوآوی یا گوشی پرچمدار
+            هواوی، همیشه می‌توانید از دوربین باکیفیت گوشی خود لذت ببرید.
+            <span class="text-[blue] cursor-pointer"> قیمت گوشی هواوی </span>
+            را همیشه می‌توانید از صفحه گوشی هواوی در سایت دی‌جی‌لند مشاهده و با
+            ضمانت معتبر بخرید.
+          </p>
+
+          <p class="font-extrabold">
+            فروشگاه موبایل، کالای دیجیتال و لوازم جانبی دی‌جی‌لند
+          </p>
+
+          <p class="text text-[12px]" style="text-align: justify;">
+            فروشگاه اینترنتی دی‌جی‌لند، اولین و بزرگترین فروشگاه اینترنتی و
+            حضوری کالای دیجیتال در ایران است. از خرید گوشی موبایل یا خرید لپ
+            ‌تاپ تا خرید اسپیکر یا خرید ساعت هوشمند را می‌توانید از فروشگاه
+            اینترنتی دی‌جی‌لند انجام دهید. دی‌جی‌لند علاوه بر فروشگاه اینترنتی،
+            امکان خرید حضوری از شعب خود (۱۰ شعبه در کشور) را فراهم کرده است. شما
+            می‌توانید از یکی از دو روش ذکر شده انواع گوشی‌های سامسونگ، شیائومی،
+            اپل، نوکیا، انواع تبلت، انواع لپتاپ، انواع
+            <span class="text-[blue] cursor-pointer"> هدفون و هندزفری </span>
+            ، انواع
+            <span class="text-[blue] cursor-pointer"> ساعت هوشمند </span>
+
+            ، انواع
+
+            <span class="text-[blue] cursor-pointer"> تلوزیون </span>
+            ، انواع
+            <span class="text-[blue] cursor-pointer"> اسپیکر </span>
+            و
+            <span class="text-[blue] cursor-pointer"> ساندبار </span>
+            ، گجت‌های هوشمند و سایر کالاهای دیجیتال را با بهترین قیمت و معتبر
+            ترین گارانتی خریداری کنید. همچنین اگر قصد خرید اینترنتی را دارید
+            می‌توانید تمامی کالاهای دیجیتال را در هر ساعتی از شبانه‌روز و با
+            ارسال سریع از سایت دی‌جی‌لند سفارش دهید.
+          </p>
+          <button
+            class="btn absolute top-[203px] border text-[blue] bg-white text-[20px] px-4 rounded-xl left-4 py-1"
+          >
+            مشاهده بیشتر
+          </button>
+        </div>
+      </div>
+
+      <hr class="w-full mt-4 flex" />
+      <!-- عکس لوگوی دیجیلند -->
+      <div class="mt-3 w-[80%] hidden lg:flex">
+        <img src="./media/footer/1.svg" alt="" />
+      </div>
+      <!-- بخش منوی فوتر -->
+      <div class="hidden lg:flex m-auto w-[90%] justify-around">
+        <div class="flex flex-col gap-3">
+          <p class="text-[14px] font-semibold text-[#888888]">
+            درباره دی‌جی‌لند
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">تماس با ما</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">درباره ما</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            مجله دی‌جی‌لند
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">شعب</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            شرایط و قوانین
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">خرید اقساطی</p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-[14px] font-semibold text-[#888888]">خدمات مشتریان</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            پرسش های متداول
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">راهنمای خرید</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            شرایط بازگشت کالا
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">ثبت شکایات</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">حریم خصوصی</p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-[14px] font-semibold text-[#888888]">
+            دسته بندی‌های پربازدید
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">گوشی موبایل</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">لپتاب</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            هدفون و هندزفری
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            اسپیکر و بلندگو
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">ساعت هوشمند</p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            تجهیزات ذخیره سازی
+          </p>
+          <p class="text-[12px] text-[#888888] cursor-pointer">
+            شارژر و پاوربانک
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="text-[14px] font-semibold text-[#888888]">ساعت پاسخگویی</p>
+          <p class="text-[12px]">۷ روز هفته از ساعت ۹ الی ۲۰</p>
+          <a href="#" class="flex gap-3">
+            <img src="./media/footer/2.svg" alt="" />
+            <p class="font-bold text-[12px]">
+              تلفن امور مشتریان
+              <br />
+              021-41016
+            </p>
+          </a>
+          <a href="#" class="flex gap-3">
+            <img src="./media/footer/3.svg" alt="" />
+            <p class="font-bold text-[12px]">
+              روابط عمومی
+              <br />
+              Info@dgland.com
+            </p>
+          </a>
+        </div>
+        <div class="hidden lg:flex flex-col gap-5">
+          <p class="text-[14px] font-semibold text-[#888888]">
+            مارا دنبال کنید
+          </p>
+          <div class="flex gap-3 items-center">
+            <a href="#">
+              <img src="./media/footer/4.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./media/footer/5.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./media/footer/6.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./media/footer/7.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- گوشی -->
+      <div class="flex lg:hidden flex-col gap-3">
+        <p class="text-[14px] font-semibold text-[#888888]">
+          <span class="text-[crimson] text-[16px]"> همراه شما هستیم </span>
+          با ما در ارتباط باشید
+        </p>
+        <p class="text-[16px] text-[#888888] text-center">
+          ۷ روز هفته از ساعت ۹ الی ۲۰
+        </p>
+
+        <div class="flex gap-5">
+          <a href="#" class="flex">
+            <img src="./media/footer/2.svg" alt="" />
+            <p class="font-bold text-[12px]">
+              تلفن امور مشتریان
+              <br />
+              021-41016
+            </p>
+          </a>
+          <a href="#" class="flex">
+            <img src="./media/footer/3.svg" alt="" />
+            <p class="font-bold text-[12px]">
+              روابط عمومی
+              <br />
+              Info@dgland.com
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <!-- فروشگاه اینترنتی و e-namad -->
+      <div class="flex justify-center flex-col lg:flex-row gap-5 lg:gap-0">
+        <div class="lg:w-[40%] px-10 lg:px-0 w-full m-auto">
+          <p>
+            فروشگاه اینترنتی
+            <span class="text-[crimson]"> دی‌جی‌لند </span>
+          </p>
+          <p class="text-[11px]">
+            فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه به
+            رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و نیاز به
+            کالاهای دیجیتال تاسیس شد. هدف این فروشگاه اینترنتی خدمت‌رسانی و
+            تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای دیجیتال ، لوازم
+            خانگی و سرگرمی است.
+          </p>
+        </div>
+        <div class="lg:w-[40%] w-full flex justify-center gap-3">
+          <a href="#">
+            <img src="./media/footer/8.png" alt="" class="w-[80px] h-[80px]" />
+          </a>
+          <a href="#">
+            <img src="./media/footer/9.png" alt="" class="w-[80px] h-[80px]" />
+          </a>
+        </div>
+      </div>
+      <hr class="w-full mt-4 flex" />
+      <p class="m-auto text-[#878787]">
+        کلیه حقوق این وب سایت متعلق به دی‌جی‌لند است.
+      </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper1", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper3", {
+        slidesPerView: 4,
+        spaceBetween: 5,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper4", {
+        slidesPerView: 5,
+        spaceBetween: 10,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper5", {
+        slidesPerView: 1.75,
+        spaceBetween: 10,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper6", {
+        slidesPerView: 3.5,
+        spaceBetween: 10,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper7", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper8", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

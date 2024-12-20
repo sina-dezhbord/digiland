@@ -1,0 +1,161 @@
+@media (min-width: 768px) {
+    .item {
+      animation: autoRun 11s linear infinite;
+    }
+  }
+  @media (max-width: 768px) {
+    .item {
+      animation: autoRunm 11s linear infinite;
+    }
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: iranSans;
+    font-family: iranSansNum;
+  
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: crimson !important;
+    transform: scale(1.2) !important;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-3 .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-3 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-3 .swiper-slide img,
+  .swiper-5 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all linear 300ms;
+  }
+  
+  .swiper-3 .swiper-slide:hover img,
+  .swiper-5 .swiper-slide:hover img {
+    transform: scale(1.1) translateY(10px) !important;
+    filter: drop-shadow(20px 0px 5px black);
+  }
+  
+  section.eleventh {
+    height: 628px;
+    background-image: url(../media/main/11/Screenshot\ 2024-12-19\ 224443.png);
+  }
+  
+  .slider {
+    position: relative;
+    overflow: hidden;
+    direction: rtl;
+  }
+  
+  .item {
+    position: absolute;
+    width: 100%;
+    right: -100%;
+  }
+  
+  .slider:hover .item {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  .item1 {
+    animation-delay: 0s;
+  }
+  .item2 {
+    animation-delay: 1s;
+  }
+  .item3 {
+    animation-delay: 2s;
+  }
+  .item4 {
+    animation-delay: 3s;
+  }
+  .item5 {
+    animation-delay: 4s;
+  }
+  .item6 {
+    animation-delay: 5s;
+  }
+  .item7 {
+    animation-delay: 6s;
+  }
+  .item8 {
+    animation-delay: 7s;
+  }
+  .item9 {
+    animation-delay: 8s;
+  }
+  .item10 {
+    animation-delay: 9s;
+  }
+  .item11 {
+    animation-delay: 10s;
+  }
+  
+  @keyframes autoRunm {
+    from {
+      right: 100%;
+    }
+    to {
+      right: -200%;
+    }
+  }
+  
+  @keyframes autoRun {
+    from {
+      right: 100%;
+    }
+    to {
+      right: -100%;
+    }
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @font-face {
+    font-family: iranSans;
+    src: url(../fonts/IRANSansX-Regular.woff);
+  }
+  
+  @font-face {
+    font-family: iranSansNum;
+  
+    src: url(../fonts/IRANSansXFaNum-Regular.woff);
+  }
